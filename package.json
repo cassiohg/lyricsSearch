@@ -1,0 +1,21 @@
+{
+  "name": "lyrics search",
+  "main": "index.html",
+  "description": "search for the track that has the lyrics you have in mind",
+  "version": "0.0.1",
+  "keywords": [ "lyrics", "search", "music", "id3"],
+  "window": {
+    "title": "Lyrics Search",
+    // "icon": "link.png",
+    "toolbar": false,
+    "frame": true,
+    "width": 800,
+    "height": 500,
+    "position": "center",
+    "min_width": 600,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600
+  },
+  "single-instance": false
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Lyrics Search</title>
+	<link href="css/style.css" rel="stylesheet">
+	
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	
+</head>
+<body>
+	
+	<div class="halfScreen left">
+		<textarea id="search" placeholder="search here" rows="4" cols="50"></textarea>
+		<textarea id="lyrics" rows="26" cols="50"></textarea>
+	</div>
+
+	<div class="halfScreen right">
+		<table class="list">
+			<tbody id="tracks">
+				
+			</tbody>
+		</table>
+	</div>
+	
+	<table class="hidden">
+	<tr class="track hidden" id="templateTrack">
+		<td class="score"></td><td class="trackName"></td>
+	</tr>
+	</table>
+</body>
+</html>
+

@@ -1,0 +1,71 @@
+body {
+	height: 500px;
+	margin: 0;
+	padding: 0;
+}
+
+.halfScreen {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+textarea {
+	margin: 20px;
+	margin-right: 10px;
+	resize: none;
+	border-color: black;
+}
+
+.list {
+	margin: 20px;
+	margin-left: 10px;
+	height: 89%;
+	max-height: 89%;
+	width: 90%;
+	border: 1px solid black;
+	border-spacing: 0px;
+	border-collapse: collapse;
+	display: block;
+	overflow-y: scroll;
+}
+
+.track {
+	min-height: 20px;
+	font-size: 1em;
+	text-align: center;
+	border-top: 1px solid black;
+}
+
+.track:last-child {
+	border-bottom: 1px solid black;
+}
+
+.track:first-child {
+	border-top: none;
+}
+
+.trackName {
+	width: 100%;
+}
+
+.score {
+	max-width: 100px;
+	min-width: 50px;
+	border-right: 1px solid black;
+	vertical-align: middle;
+}
+
+td {
+	padding: 0px;
+}
+
+.hidden {
+	display: none;
+}
+
+.selected {
+	background-color: rgb(255,255,150);
+}
+
